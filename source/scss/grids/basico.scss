@@ -1,0 +1,26 @@
+/**/
+.container {
+	height: auto;
+	margin:0;
+	background-color: lightgray;
+}
+
+/* Classe de Linha para Separação de Conteúdo */
+.row{
+	margin-bottom: 5px;
+
+	&:after{
+		content:"";
+		display: table;
+		clear:both;
+	}
+}
+
+/* Classes Padrões de Coluna */
+.col {
+	position: relative;
+	min-height: 1px;
+	float: left;
+	margin: 2px 0;
+	padding:0 10px;
+}
